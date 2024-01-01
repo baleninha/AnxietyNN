@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T23:27:53.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" version="22.1.11" etag="i2ZoUYGkldqOT2U5U5mv" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T18:58:25.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="NwByhoZcNf27ecbLh_O3" version="22.1.16" type="github">
   <diagram name="Page-1" id="2nCS7XndhIrRuuxZeD5w">
-    <mxGraphModel>
+    <mxGraphModel dx="1180" dy="1783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zYSlxSsm-55e30iSQ1f2-1" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;60 recordings of participants aged 18-35&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="353" y="-1040" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zYSlxSsm-55e30iSQ1f2-5" value="Anxiety-inducing tasks:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Bug box&lt;/li&gt;&lt;li&gt;Public speaking&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340.5" y="-870" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zYSlxSsm-55e30iSQ1f2-6" value="Anxiety level classification:&lt;br&gt;&lt;ul&gt;&lt;li&gt;DASS&lt;/li&gt;&lt;li&gt;LSAS&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="-980" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zYSlxSsm-55e30iSQ1f2-8" value="ECG signal recorded at 250 Hz" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="-760" width="144" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zYSlxSsm-55e30iSQ1f2-9" value="Extracted ECG features:&lt;br&gt;Time domain:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;Frequency domain:&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="-660" width="145" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
