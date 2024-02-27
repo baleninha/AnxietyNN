@@ -1,20 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2024-02-27T16:43:47.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="1Qr3sedTl-zRktXdorCu" version="23.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-27T18:41:39.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 OPR/106.0.0.0" etag="OXtcr7kTxE4bS2Vd6Ll5" version="23.1.7" type="github">
   <diagram name="Page-1" id="T6E8E9UyFM7u3ccwh6Je">
-    <mxGraphModel dx="1761" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1049" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iE3oBkrifCEsQNyjyv8l-1" value="Dataset ECG recordings" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="iE3oBkrifCEsQNyjyv8l-1" value="Dataset ECG recordings" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="20" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iE3oBkrifCEsQNyjyv8l-2" value="Data Acquisition &amp;amp; preparation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="70" width="200" height="40" as="geometry" />
+        <mxCell id="iE3oBkrifCEsQNyjyv8l-2" value="Data Acquisition &amp;amp; preparation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="70" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="iE3oBkrifCEsQNyjyv8l-3" value="Signal cleaning and normalizing" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="iE3oBkrifCEsQNyjyv8l-3" value="Signal cleaning and normalizing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="180" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iE3oBkrifCEsQNyjyv8l-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="130" width="120" height="60" as="geometry" />
+        <mxCell id="iE3oBkrifCEsQNyjyv8l-4" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="90" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bEEKKv8_C34YNvQZEIkM-1" value="Time domain: Sample Entropy, RMSSD, Mean RR, Std RR" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="365" y="120" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEEKKv8_C34YNvQZEIkM-2" value="Frequency domain: HF, LF, VLF" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="365" y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bEEKKv8_C34YNvQZEIkM-3" value="Feature extraction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bEEKKv8_C34YNvQZEIkM-5" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.6123802548363092;arrowSize=0.36971400669642945;" vertex="1" parent="1">
+          <mxGeometry x="150" y="150" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bEEKKv8_C34YNvQZEIkM-6" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.6123802548363092;arrowSize=0.36971400669642945;" vertex="1" parent="1">
+          <mxGeometry x="310" y="150" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
